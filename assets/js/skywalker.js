@@ -99,7 +99,7 @@ $('.post main').scroll(function (){
 		} 
 	}
 });
-// bing background
+// bing background todowangzr
 if( $('.page').hasClass('post') ){
 	$.ajax({
 		type: 'GET',

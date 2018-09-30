@@ -1,10 +1,9 @@
-<!--PC和WAP自适应版-->
+<!--PC和WAP自适应版 接入畅言评论系统-->
 <div id="SOHUCS" sid="{{id}}"></div>
 <script type="text/javascript">
     (function () {
-        // TODO wangzr
-        var appid = 'cyt3JTiPK';
-        var conf = 'prod_26c6d13f333edac41afb715fde474d27';
+        var appid = 'cytQjd8bB';
+        var conf = 'prod_a061026d7041ee5dba53c3feecb815e9';
         var width = window.innerWidth || document.documentElement.clientWidth;
         if (width < 960) {
             window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>');
@@ -34,7 +33,9 @@
                 window.changyan.api.config({appid: appid, conf: conf})
             });
         }
-    })(); </script>
+    })();
+</script>
+
 <style>
     #SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .post-wrap-main {
         background-image: none !important;
